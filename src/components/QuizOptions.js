@@ -5,7 +5,7 @@ class QuizOptions extends Component {
     return(
       <div className="fields">
         <div className="field-block">
-          10
+          {this.props.option}
         </div>
       </div>
 
